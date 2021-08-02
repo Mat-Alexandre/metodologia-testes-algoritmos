@@ -237,7 +237,7 @@ void benchmark(
 int main()
 {
     int sampleSizes[] = { 100, 1000, 10000, 100000 };
-    int iterations[]  = { 100, 10, 1, 1 };
+    int iterations[]  = { 2, 3, 4, 5 };
     std::ofstream myfile;
 
     for(int i = 0; i < 4; i++)
