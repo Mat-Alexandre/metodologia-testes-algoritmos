@@ -1,80 +1,80 @@
-SELECTIONSORT 100:
-Sorted: 0.083500 ms
-Reverse: 0.086500 ms
-Random: 0.096000 ms
-
-INSERTION 100:
-Sorted: 0.004500 ms
-Reverse: 0.097500 ms
-Random: 0.055000 ms
-
 BUBBLESORT 100:
-Sorted: 0.207000 ms
-Reverse: 0.313000 ms
-Random: 0.262000 ms
+Sorted: 0.156200 ms
+Reverse: 0.244800 ms
+Random: 0.130200 ms
+
+SELECTIONSORT 100:
+Sorted: 0.083600 ms
+Reverse: 0.086200 ms
+Random: 0.092800 ms
+
+INSERTIONSORT 100:
+Sorted: 0.003200 ms
+Reverse: 0.085200 ms
+Random: 0.049200 ms
 
 COCKTAILSORT 100:
-Sorted: 0.005000 ms
-Reverse: 0.201500 ms
-Random: 0.133000 ms
-
-SELECTIONSORT 1000:
-Sorted: 5.028667 ms
-Reverse: 3.308333 ms
-Random: 3.285667 ms
-
-INSERTION 1000:
-Sorted: 0.009667 ms
-Reverse: 3.332000 ms
-Random: 1.788667 ms
+Sorted: 0.002200 ms
+Reverse: 0.097200 ms
+Random: 0.066600 ms
 
 BUBBLESORT 1000:
-Sorted: 6.543667 ms
-Reverse: 10.648333 ms
-Random: 10.048667 ms
+Sorted: 6.432400 ms
+Reverse: 10.982000 ms
+Random: 10.132600 ms
+
+SELECTIONSORT 1000:
+Sorted: 3.963800 ms
+Reverse: 3.331400 ms
+Random: 3.153600 ms
+
+INSERTIONSORT 1000:
+Sorted: 0.009400 ms
+Reverse: 3.366200 ms
+Random: 1.659400 ms
 
 COCKTAILSORT 1000:
-Sorted: 0.009667 ms
-Reverse: 6.944667 ms
-Random: 5.115667 ms
-
-SELECTIONSORT 10000:
-Sorted: 307.297500 ms
-Reverse: 313.580250 ms
-Random: 308.068750 ms
-
-INSERTION 10000:
-Sorted: 0.095500 ms
-Reverse: 324.516500 ms
-Random: 165.242500 ms
+Sorted: 0.009400 ms
+Reverse: 6.682800 ms
+Random: 4.775600 ms
 
 BUBBLESORT 10000:
-Sorted: 614.108000 ms
-Reverse: 1030.984000 ms
-Random: 971.781750 ms
+Sorted: 631.719600 ms
+Reverse: 1031.615800 ms
+Random: 993.545400 ms
+
+SELECTIONSORT 10000:
+Sorted: 312.668600 ms
+Reverse: 313.209600 ms
+Random: 308.691400 ms
+
+INSERTIONSORT 10000:
+Sorted: 0.091800 ms
+Reverse: 323.002800 ms
+Random: 164.330200 ms
 
 COCKTAILSORT 10000:
-Sorted: 0.102250 ms
-Reverse: 649.877500 ms
-Random: 458.606750 ms
-
-SELECTIONSORT 100000:
-Sorted: 30785.265400 ms
-Reverse: 31483.806800 ms
-Random: 30837.751800 ms
-
-INSERTION 100000:
-Sorted: 0.997200 ms
-Reverse: 32509.200600 ms
-Random: 16312.752600 ms
+Sorted: 0.090200 ms
+Reverse: 649.904800 ms
+Random: 465.556400 ms
 
 BUBBLESORT 100000:
-Sorted: 61273.705800 ms
-Reverse: 103120.102800 ms
-Random: 97357.922800 ms
+Sorted: 62581.951000 ms
+Reverse: 109475.899600 ms
+Random: 102473.790000 ms
+
+SELECTIONSORT 100000:
+Sorted: 30941.360800 ms
+Reverse: 31366.342600 ms
+Random: 31136.338200 ms
+
+INSERTIONSORT 100000:
+Sorted: 0.961000 ms
+Reverse: 33934.104200 ms
+Random: 17607.324200 ms
 
 COCKTAILSORT 100000:
-Sorted: 0.912800 ms
-Reverse: 65042.857800 ms
-Random: 46335.732800 ms
+Sorted: 0.943600 ms
+Reverse: 66755.885800 ms
+Random: 49194.954600 ms
 

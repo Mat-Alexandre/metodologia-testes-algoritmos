@@ -237,30 +237,31 @@ void benchmark(
 int main()
 {
     int sampleSizes[] = { 100, 1000, 10000, 100000 };
-    int iterations[]  = { 2, 3, 4, 5 };
+    int iterations    = 5;
     std::ofstream myfile;
+    myfile.open("../DADOS/results", std::ios::out);
 
     for(int i = 0; i < 4; i++)
     {
-        myfile.open("results", std::ios::app);
-        myfile << "SELECTIONSORT ";
-        myfile.close();
-        benchmark(iterations[i], sampleSizes[i], selectionSort, "results");
-        
-        myfile.open("results", std::ios::app);
-        myfile << "INSERTION ";
-        myfile.close();
-        benchmark(iterations[i], sampleSizes[i], insertionSort, "results");
-        
-        myfile.open("results", std::ios::app);
+        myfile.open("../DADOS/results", std::ios::app);
         myfile << "BUBBLESORT ";
         myfile.close();
-        benchmark(iterations[i], sampleSizes[i], bubbleSort,    "results");
+        benchmark(iterations, sampleSizes[i], bubbleSort,    "../DADOS/results");
         
-        myfile.open("results", std::ios::app);
+        myfile.open("../DADOS/results", std::ios::app);
+        myfile << "SELECTIONSORT ";
+        myfile.close();
+        benchmark(iterations, sampleSizes[i], selectionSort, "../DADOS/results");
+        
+        myfile.open("../DADOS/results", std::ios::app);
+        myfile << "INSERTIONSORT ";
+        myfile.close();
+        benchmark(iterations, sampleSizes[i], insertionSort, "../DADOS/results");
+        
+        myfile.open("../DADOS/results", std::ios::app);
         myfile << "COCKTAILSORT ";
         myfile.close();
-        benchmark(iterations[i], sampleSizes[i], cocktailSort,  "results");
+        benchmark(iterations, sampleSizes[i], cocktailSort,  "../DADOS/results");
     }
 
     return 0;
